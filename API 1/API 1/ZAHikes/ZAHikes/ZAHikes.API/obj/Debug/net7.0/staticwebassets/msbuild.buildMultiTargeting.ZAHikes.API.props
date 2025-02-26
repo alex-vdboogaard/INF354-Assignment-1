@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ZAHikes.API.props" />
+</Project>

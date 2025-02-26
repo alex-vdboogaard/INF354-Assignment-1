@@ -1,0 +1,204 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|c:\\users\\u23561302\\downloads\\api 1\\api 1\\zahikes\\zahikes\\zahikes.api\\controllers\\provincecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|solutionrelative:zahikes.api\\controllers\\provincecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|c:\\users\\u23561302\\downloads\\api 1\\api 1\\zahikes\\zahikes\\zahikes.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|solutionrelative:zahikes.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|c:\\users\\u23561302\\downloads\\api 1\\api 1\\zahikes\\zahikes\\zahikes.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|solutionrelative:zahikes.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|c:\\users\\u23561302\\downloads\\api 1\\api 1\\zahikes\\zahikes\\zahikes.api\\models\\domain\\province.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|solutionrelative:zahikes.api\\models\\domain\\province.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|c:\\users\\u23561302\\downloads\\api 1\\api 1\\zahikes\\zahikes\\zahikes.api\\migrations\\20250216225055_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|solutionrelative:zahikes.api\\migrations\\20250216225055_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|c:\\users\\u23561302\\downloads\\api 1\\api 1\\zahikes\\zahikes\\zahikes.api\\zahikes.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|solutionrelative:zahikes.api\\zahikes.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|c:\\users\\u23561302\\downloads\\api 1\\api 1\\zahikes\\zahikes\\zahikes.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|solutionrelative:zahikes.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|c:\\users\\u23561302\\downloads\\api 1\\api 1\\zahikes\\zahikes\\zahikes.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|solutionrelative:zahikes.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|c:\\users\\u23561302\\downloads\\api 1\\api 1\\zahikes\\zahikes\\zahikes.api\\data\\zahikesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|solutionrelative:zahikes.api\\data\\zahikesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|c:\\users\\u23561302\\downloads\\api 1\\api 1\\zahikes\\zahikes\\zahikes.api\\models\\domain\\hike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|solutionrelative:zahikes.api\\models\\domain\\hike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|c:\\users\\u23561302\\downloads\\api 1\\api 1\\zahikes\\zahikes\\zahikes.api\\models\\domain\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A266EDD-A626-489B-881A-6C1C0D24099E}|ZAHikes.API\\ZAHikes.API.csproj|solutionrelative:zahikes.api\\models\\domain\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProvinceController.cs",
+              "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\Controllers\\ProvinceController.cs",
+              "RelativeDocumentMoniker": "ZAHikes.API\\Controllers\\ProvinceController.cs",
+              "ToolTip": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\Controllers\\ProvinceController.cs",
+              "RelativeToolTip": "ZAHikes.API\\Controllers\\ProvinceController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T09:19:24.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\Program.cs",
+              "RelativeDocumentMoniker": "ZAHikes.API\\Program.cs",
+              "ToolTip": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\Program.cs",
+              "RelativeToolTip": "ZAHikes.API\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T09:19:24.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "ZAHikes.API\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "ZAHikes.API\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T09:19:24.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ZAHikes.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\appsettings.Development.json",
+              "RelativeToolTip": "ZAHikes.API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-26T09:19:24.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ZAHikes.API.csproj",
+              "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\ZAHikes.API.csproj",
+              "RelativeDocumentMoniker": "ZAHikes.API\\ZAHikes.API.csproj",
+              "ToolTip": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\ZAHikes.API.csproj",
+              "RelativeToolTip": "ZAHikes.API\\ZAHikes.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-26T09:19:24.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ZAHikesDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\Data\\ZAHikesDbContext.cs",
+              "RelativeDocumentMoniker": "ZAHikes.API\\Data\\ZAHikesDbContext.cs",
+              "ToolTip": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\Data\\ZAHikesDbContext.cs",
+              "RelativeToolTip": "ZAHikes.API\\Data\\ZAHikesDbContext.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T09:19:24.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Hike.cs",
+              "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\Models\\Domain\\Hike.cs",
+              "RelativeDocumentMoniker": "ZAHikes.API\\Models\\Domain\\Hike.cs",
+              "ToolTip": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\Models\\Domain\\Hike.cs",
+              "RelativeToolTip": "ZAHikes.API\\Models\\Domain\\Hike.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T09:19:24.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Province.cs",
+              "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\Models\\Domain\\Province.cs",
+              "RelativeDocumentMoniker": "ZAHikes.API\\Models\\Domain\\Province.cs",
+              "ToolTip": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\Models\\Domain\\Province.cs",
+              "RelativeToolTip": "ZAHikes.API\\Models\\Domain\\Province.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T09:19:24.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ZAHikes.API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ZAHikes.API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T09:19:24.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250216225055_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\Migrations\\20250216225055_Initial.cs",
+              "RelativeDocumentMoniker": "ZAHikes.API\\Migrations\\20250216225055_Initial.cs",
+              "ToolTip": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\Migrations\\20250216225055_Initial.cs",
+              "RelativeToolTip": "ZAHikes.API\\Migrations\\20250216225055_Initial.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAADsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T09:19:24.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Difficulty.cs",
+              "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\Models\\Domain\\Difficulty.cs",
+              "RelativeDocumentMoniker": "ZAHikes.API\\Models\\Domain\\Difficulty.cs",
+              "ToolTip": "C:\\Users\\u23561302\\Downloads\\API 1\\API 1\\ZAHikes\\ZAHikes\\ZAHikes.API\\Models\\Domain\\Difficulty.cs",
+              "RelativeToolTip": "ZAHikes.API\\Models\\Domain\\Difficulty.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T09:19:24.224Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
