@@ -1,12 +1,139 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|c:\\users\\u23561302\\downloads\\inf354-assignment-1\\productapi\\productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|c:\\users\\u23561302\\downloads\\inf354-assignment-1\\productapi\\productapi\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|c:\\users\\u23561302\\downloads\\inf354-assignment-1\\productapi\\productapi\\repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|c:\\users\\u23561302\\downloads\\inf354-assignment-1\\productapi\\productapi\\productapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\productapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|c:\\users\\u23561302\\downloads\\inf354-assignment-1\\productapi\\productapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|c:\\users\\u23561302\\downloads\\inf354-assignment-1\\productapi\\productapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|c:\\users\\u23561302\\downloads\\inf354-assignment-1\\productapi\\productapi\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ProductAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\Program.cs",
+              "RelativeToolTip": "ProductAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T07:06:26.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\Repository\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "ProductAPI\\Repository\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\Repository\\StudentRepository.cs",
+              "RelativeToolTip": "ProductAPI\\Repository\\StudentRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T07:05:33.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\Repository\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "ProductAPI\\Repository\\IStudentRepository.cs",
+              "ToolTip": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\Repository\\IStudentRepository.cs",
+              "RelativeToolTip": "ProductAPI\\Repository\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T07:02:54.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductAPI",
+              "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\ProductAPI.csproj",
+              "RelativeDocumentMoniker": "ProductAPI\\ProductAPI.csproj",
+              "ToolTip": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\ProductAPI.csproj*",
+              "RelativeToolTip": "ProductAPI\\ProductAPI.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-27T07:02:37.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProductAPI\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ProductAPI\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T07:01:27.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "ProductAPI\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\Models\\Course.cs",
+              "RelativeToolTip": "ProductAPI\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T07:00:06.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "ProductAPI\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\Models\\Student.cs",
+              "RelativeToolTip": "ProductAPI\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:51:54.886Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
