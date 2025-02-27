@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|c:\\users\\u23561302\\downloads\\inf354-assignment-1\\productapi\\productapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|c:\\users\\u23561302\\downloads\\inf354-assignment-1\\productapi\\productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|c:\\users\\u23561302\\downloads\\inf354-assignment-1\\productapi\\productapi\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|c:\\users\\u23561302\\downloads\\inf354-assignment-1\\productapi\\productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3C92DAB-A582-4458-894A-4F8FB47C0BBA}|ProductAPI\\ProductAPI.csproj|c:\\users\\u23561302\\downloads\\inf354-assignment-1\\productapi\\productapi\\repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,19 +43,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "ProductAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\appsettings.json",
-              "RelativeToolTip": "ProductAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-27T07:08:40.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\Program.cs",
               "RelativeDocumentMoniker": "ProductAPI\\Program.cs",
@@ -85,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "IStudentRepository.cs",
               "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\Repository\\IStudentRepository.cs",
               "RelativeDocumentMoniker": "ProductAPI\\Repository\\IStudentRepository.cs",
@@ -98,12 +81,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ProductAPI",
               "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\ProductAPI.csproj",
               "RelativeDocumentMoniker": "ProductAPI\\ProductAPI.csproj",
-              "ToolTip": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\ProductAPI.csproj",
-              "RelativeToolTip": "ProductAPI\\ProductAPI.csproj",
+              "ToolTip": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\ProductAPI.csproj*",
+              "RelativeToolTip": "ProductAPI\\ProductAPI.csproj*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-02-27T07:02:37.011Z",
@@ -111,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ProductAPI\\Data\\ApplicationDbContext.cs",
@@ -124,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\Models\\Course.cs",
               "RelativeDocumentMoniker": "ProductAPI\\Models\\Course.cs",
@@ -137,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\u23561302\\Downloads\\INF354-Assignment-1\\ProductAPI\\ProductAPI\\Models\\Student.cs",
               "RelativeDocumentMoniker": "ProductAPI\\Models\\Student.cs",
