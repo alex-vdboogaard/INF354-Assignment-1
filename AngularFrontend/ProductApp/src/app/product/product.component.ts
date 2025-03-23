@@ -1,11 +1,26 @@
-import { Component } from "@angular/core";
-import { Product } from "../../models/product.model";
+import { Component, Input } from "@angular/core";
+import { CommonModule } from "@angular/common"; // Import CommonModule for *ngIf, *ngFor, etc.
+import { Product } from "../../models/product.model"; // Import Product model
+import { Router } from "@angular/router";
+
 @Component({
   selector: "app-product",
-  imports: [],
+  standalone: true, // Mark as standalone component
+  imports: [CommonModule], // Import necessary modules
   templateUrl: "./product.component.html",
-  styleUrl: "./product.component.css",
+  styleUrls: ["./product.component.css"], // Corrected styleUrls
 })
 export class ProductComponent {
-  product!: Product;
+  @Input() product!: Product; // Input to receive product data
+
+  constructor(private router: Router) {}
+  ngOnInit(): void {}
+
+  onEdit(product: Product) {
+    this.router.navigate([`Edit?id=${product.id}`]);
+  }
+
+  onDelete(product: ProductComponent) {
+    this.router.navigate([""]);
+  }
 }
