@@ -2,12 +2,14 @@ import { Component, OnInit } from "@angular/core";
 import { Router, ActivatedRoute } from "@angular/router";
 import { ProductService } from "../services/product.service";
 import { Product } from "../../models/product.model";
-import { NgForm, NgModel } from "@angular/forms";
+import { FormsModule, NgForm, NgModel } from "@angular/forms";
 
 @Component({
   selector: "app-edit-page",
   templateUrl: "./edit-page.component.html",
   styleUrls: ["./edit-page.component.css"],
+  standalone: true,
+  imports: [FormsModule],
 })
 export class EditPageComponent implements OnInit {
   id: number | null = null;
