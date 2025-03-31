@@ -1,6 +1,11 @@
 <main>
   <h1>Products</h1>
-  <div class="product-list">
+
+  <div *ngIf="loading" class="loading">Loading products...</div>
+
+  <div *ngIf="error" class="error">{{ error }}</div>
+
+  <div *ngIf="!loading && !error" class="product-list">
     <div *ngFor="let product of products">
       <app-product [product]="product"></app-product>
     </div>
