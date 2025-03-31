@@ -5,6 +5,6 @@ import { EditPageComponent } from "./edit-page/edit-page.component";
 export const routes: Routes = [
   { path: "", redirectTo: "products", pathMatch: "full" },
   { path: "products", component: ProductListComponent },
-  { path: "edit", component: EditPageComponent },
+  { path: "edit/:id", component: EditPageComponent },
   { path: "**", component: ProductListComponent },
 ];

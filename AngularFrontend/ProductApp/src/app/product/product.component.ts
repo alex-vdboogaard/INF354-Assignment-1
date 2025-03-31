@@ -17,7 +17,7 @@ export class ProductComponent {
   ngOnInit(): void {}
 
   onEdit(product: Product) {
-    this.router.navigate(["edit"], { queryParams: { id: product.id } });
+    this.router.navigate([`edit/${product.id}`]);
   }
 
   onDelete(product: ProductComponent) {

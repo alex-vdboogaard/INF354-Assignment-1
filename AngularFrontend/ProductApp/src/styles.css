@@ -1,15 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
 body {
   font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  background-color: rgb(245, 245, 245);
 }
 
 main {
   width: 100vw;
   height: 100vh;
+  padding: 0px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-top: 0px;
+  font-size: 45px;
 }
 
 h2 {
-  font-size: 42px;
+  font-size: 34px;
+  margin-top: 0px;
+}
+
+input {
+  color: black;
+  padding: 10px 20px;
+  display: block;
+  margin: 7px 0px 20px 0px;
+  width: 400px;
 }
 
 h3 {
@@ -22,4 +46,15 @@ button {
   border: none;
   font-size: 16px;
   border-radius: 5px;
+}
+
+.form-wrapper {
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: auto;
+  background-color: white;
+  padding: 20px;
 }
