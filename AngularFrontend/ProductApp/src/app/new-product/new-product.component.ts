@@ -20,26 +20,7 @@ export class NewProductComponent implements OnInit {
     private productService: ProductService
   ) {}
 
-  ngOnInit(): void {
-    const idParam = this.route.snapshot.paramMap.get("id");
-    if (idParam) {
-      this.id = +idParam; // Convert ID to a number
-      this.productService.fetchProduct(this.id).subscribe({
-        next: (product) => {
-          this.product = product;
-        },
-        error: (error) => {
-          console.error("Error fetching product:", error);
-          alert("Error fetching product details. Returning to product list.");
-          this.router.navigate(["/products"]);
-        },
-      });
-    } else {
-      // Handle case when no ID is provided
-      alert("No product ID provided. Returning to product list.");
-      this.router.navigate(["/products"]);
-    }
-  }
+  ngOnInit(): void {}
 
   create(form: NgForm): void {
     if (form.valid && this.product) {
