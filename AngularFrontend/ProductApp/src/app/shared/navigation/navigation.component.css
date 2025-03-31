@@ -31,3 +31,8 @@
 .nav-links a.active {
   color: #007bff;
 }
+
+a {
+  text-decoration: none;
+  color: #333;
+}
