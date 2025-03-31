@@ -1,34 +1,41 @@
 import { Component, Input } from "@angular/core";
-import { CommonModule } from "@angular/common"; // Import CommonModule for *ngIf, *ngFor, etc.
-import { Product } from "../../models/product.model"; // Import Product model
+import { CommonModule } from "@angular/common";
+import { Product } from "../../models/product.model";
 import { Router } from "@angular/router";
 import { ProductService } from "../services/product.service";
 
 @Component({
   selector: "app-product",
-  standalone: true, // Mark as standalone component
-  imports: [CommonModule], // Import necessary modules
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: "./product.component.html",
-  styleUrls: ["./product.component.css"], // Corrected styleUrls
+  styleUrls: ["./product.component.css"],
 })
 export class ProductComponent {
-  @Input() product!: Product; // Input to receive product data
+  @Input() product: Product | undefined; // Make it explicitly optional
 
   constructor(private router: Router, private productService: ProductService) {}
+
   ngOnInit(): void {}
 
-  onEdit(product: Product) {
-    this.router.navigate([`edit/${product.id}`]);
+  onEdit() {
+    if (this.product) {
+      this.router.navigate([`edit/${this.product.id}`]);
+    }
   }
 
-  onDelete(product: ProductComponent) {
+  onDelete() {
+    if (!this.product) {
+      return; // Exit early if product is undefined
+    }
+
     if (confirm("Are you sure you want to delete this product?")) {
-      this.productService.deleteProduct(product.product.id).subscribe({
-        next: (data) => {
+      this.productService.deleteProduct(this.product.id).subscribe({
+        next: () => {
           window.location.reload();
         },
         error: (err) => {
-          console.error("Error fetching products:", err);
+          console.error("Error deleting product:", err);
           alert(err.message);
         },
       });
