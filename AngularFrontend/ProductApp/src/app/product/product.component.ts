@@ -2,6 +2,7 @@ import { Component, Input } from "@angular/core";
 import { CommonModule } from "@angular/common"; // Import CommonModule for *ngIf, *ngFor, etc.
 import { Product } from "../../models/product.model"; // Import Product model
 import { Router } from "@angular/router";
+import { ProductService } from "../services/product.service";
 
 @Component({
   selector: "app-product",
@@ -13,7 +14,7 @@ import { Router } from "@angular/router";
 export class ProductComponent {
   @Input() product!: Product; // Input to receive product data
 
-  constructor(private router: Router) {}
+  constructor(private router: Router, private productService: ProductService) {}
   ngOnInit(): void {}
 
   onEdit(product: Product) {
@@ -21,6 +22,16 @@ export class ProductComponent {
   }
 
   onDelete(product: ProductComponent) {
-    this.router.navigate([""]);
+    if (confirm("Are you sure you want to delete this product?")) {
+      this.productService.deleteProduct(product.product.id).subscribe({
+        next: (data) => {
+          window.location.reload();
+        },
+        error: (err) => {
+          console.error("Error fetching products:", err);
+          alert(err.message);
+        },
+      });
+    }
   }
 }

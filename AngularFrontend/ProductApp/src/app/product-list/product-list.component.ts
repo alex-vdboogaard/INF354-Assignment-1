@@ -29,9 +29,6 @@ export class ProductListComponent implements OnInit {
         this.error = "Failed to load products. Error:" + err.message;
         this.loading = false;
       },
-      complete: () => {
-        console.log("Products fetch completed");
-      },
     });
   }
 }
