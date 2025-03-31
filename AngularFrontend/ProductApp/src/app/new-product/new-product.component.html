@@ -1,14 +1,13 @@
 <main class="main">
-  <form #form="ngForm" (ngSubmit)="saveChanges(form)" class="form-wrapper">
-    <h2>Edit Product</h2>
+  <form #form="ngForm" (ngSubmit)="create(form)" class="form-wrapper">
+    <h2>New Product</h2>
     <div>
       <label for="name">Product Name:</label>
       <input
         type="text"
         id="name"
         name="name"
-        ngModel
-        [ngModel]="product?.name"
+        [(ngModel)]="product.name"
         required
       />
     </div>
@@ -19,8 +18,7 @@
         type="text"
         id="description"
         name="description"
-        ngModel
-        [ngModel]="product?.description"
+        [(ngModel)]="product.description"
         required
       />
     </div>
@@ -31,12 +29,11 @@
         type="number"
         id="price"
         name="price"
-        ngModel
-        [ngModel]="product?.description"
+        [(ngModel)]="product.price"
         required
       />
     </div>
 
-    <button type="submit" [disabled]="form.invalid">Save Changes</button>
+    <button type="submit" [disabled]="form.invalid">Create</button>
   </form>
 </main>

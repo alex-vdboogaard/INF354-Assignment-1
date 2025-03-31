@@ -2,17 +2,17 @@ import { Component, OnInit } from "@angular/core";
 import { Product } from "../../models/product.model";
 import { ActivatedRoute, Router } from "@angular/router";
 import { ProductService } from "../services/product.service";
-import { NgForm } from "@angular/forms";
+import { FormsModule, NgForm } from "@angular/forms";
 
 @Component({
   selector: "app-new-product",
-  imports: [],
+  imports: [FormsModule],
   templateUrl: "./new-product.component.html",
   styleUrl: "./new-product.component.css",
 })
 export class NewProductComponent implements OnInit {
   id: number | null = null;
-  product: Product = { id: 0, name: "", description: " ", price: 0 };
+  product: Product = { id: 0, name: " ", description: " ", price: 0 };
 
   constructor(
     private router: Router,
@@ -24,14 +24,14 @@ export class NewProductComponent implements OnInit {
 
   create(form: NgForm): void {
     if (form.valid && this.product) {
-      const updatedProduct: Product = {
+      const newProduct: Product = {
         ...this.product,
         name: form.value.name,
         description: form.value.description,
         price: form.value.price,
       };
 
-      this.productService.createProduct(this.product).subscribe({
+      this.productService.createProduct(newProduct).subscribe({
         next: (response) => {
           this.router.navigate(["/products"]); // Navigate back to product list
         },
