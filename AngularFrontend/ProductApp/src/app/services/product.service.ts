@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
-import { Observable } from "rxjs";
+import { Observable, of } from "rxjs";
 import { Product } from "../../models/product.model";
 
 @Injectable({
@@ -12,7 +12,34 @@ export class ProductService {
   constructor(private http: HttpClient) {}
 
   fetchProducts(): Observable<Product[]> {
-    return this.http.get<Product[]>(this.apiUrl);
+    const exampleProducts: Product[] = [
+      {
+        id: 1,
+        name: "Laptop",
+        description: "High-performance gaming laptop",
+        price: 1299.99,
+      },
+      {
+        id: 2,
+        name: "Smartphone",
+        description: "Latest model with advanced camera",
+        price: 899.99,
+      },
+      {
+        id: 3,
+        name: "Headphones",
+        description: "Noise-cancelling wireless headphones",
+        price: 249.99,
+      },
+      {
+        id: 4,
+        name: "Tablet",
+        description: "Lightweight tablet with stylus support",
+        price: 499.99,
+      },
+    ];
+    return of(exampleProducts);
+    // return this.http.get<Product[]>(this.apiUrl);
   }
 
   fetchProduct(id: number): Observable<Product> {

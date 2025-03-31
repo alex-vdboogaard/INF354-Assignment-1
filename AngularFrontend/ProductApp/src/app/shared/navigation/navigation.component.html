@@ -1,0 +1,18 @@
+<nav class="main-nav">
+  <div class="logo">
+    <a routerLink="/">Your Logo</a>
+  </div>
+  <ul class="nav-links">
+    <li>
+      <a
+        routerLink="/"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Home</a
+      >
+    </li>
+    <li><a routerLink="/products" routerLinkActive="active">Products</a></li>
+    <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+    <!-- Add more navigation links as needed -->
+  </ul>
+</nav>
