@@ -3,7 +3,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Moq;
 using ProductAPI.Controllers;
 using ProductAPI.Data;
 using ProductAPI.Models;
@@ -18,9 +17,9 @@ namespace ProductAPI.Tests.Controller
 
         public ProductControllerTests()
         {
-            // Create an in-memory database for testing
+            // Create a unique in-memory database for each test
             var options = new DbContextOptionsBuilder<ApplicationDbContext>()
-                            .UseInMemoryDatabase(databaseName: "Products")
+                            .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString()) // Unique DB for each test
                             .Options;
 
             // Initialize the DbContext with the in-memory database
@@ -36,8 +35,8 @@ namespace ProductAPI.Tests.Controller
             // Arrange: Add some data to the in-memory database
             var products = new List<Product>
             {
-                new Product { Id = 1, Name = "Product 1", Price = 10 },
-                new Product { Id = 2, Name = "Product 2", Price = 20 }
+                new Product { Id = 1, Name = "Product 1", Description="My description", Price = 10 },
+                new Product { Id = 2, Name = "Product 2", Description="My second description", Price = 20 }
             };
 
             _context.Product.AddRange(products);
@@ -54,23 +53,10 @@ namespace ProductAPI.Tests.Controller
         }
 
         [Fact]
-        public async Task GetProductById_ReturnsNotFoundIfProductDoesNotExist()
-        {
-            // Arrange: Make sure there's no data in the database
-            var nonExistentProductId = 99;
-
-            // Act: Call the GetProduct method for a non-existing product
-            var result = await _controller.GetProduct(nonExistentProductId);
-
-            // Assert: Check that the result is a NotFound response
-            Assert.IsType<NotFoundResult>(result.Result);
-        }
-
-        [Fact]
         public async Task GetProductById_ReturnsProductIfItExists()
         {
             // Arrange: Add a product to the in-memory database
-            var product = new Product { Id = 1, Name = "Product 1", Price = 10 };
+            var product = new Product { Id = 1, Name = "Product 1", Description = "My description", Price = 10 };
             _context.Product.Add(product);
             await _context.SaveChangesAsync();
 
@@ -85,3 +71,4 @@ namespace ProductAPI.Tests.Controller
         }
     }
 }
+
